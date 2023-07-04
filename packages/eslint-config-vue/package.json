@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-vue-yong",
+  "version": "0.1.1",
+  "description": "Musma's ESLint config for Vue projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenYong/vue-libraries.git"
+  },
+  "keywords": [
+    "musma",
+    "lint"
+  ],
+  "author": "Yong Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenYong/vue-libraries/issues"
+  },
+  "homepage": "https://github.com/OpenYong/vue-libraries#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.15.1",
+    "prettier": "^2.8.8"
+  }
+}
